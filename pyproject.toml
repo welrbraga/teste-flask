@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "teste-flask"
+version = "0.1.0"
+description = "Testes com a biblioteca Flask"
+authors = ["Welington Braga <welrbraga@yahoo.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^3.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.9.1"
+pytest = "^7.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
